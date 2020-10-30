@@ -1,9 +1,10 @@
    //this is the entry point for our app.
    
    
-   var express=require('express');
-   var app=express(); 
-   var todoController=require('./todoController');
+   let express=require('express');
+   let ejs=require('ejs');
+   let app=express(); 
+   let todoController=require('./todoController');
 
 
    app.set('view engine', 'ejs');
